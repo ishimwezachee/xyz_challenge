@@ -11,6 +11,7 @@ export default function home() {
           <Link to="/pay">
           <button className="top">Donate Now</button>
           </Link>
+
             </div>
         </div>
     )

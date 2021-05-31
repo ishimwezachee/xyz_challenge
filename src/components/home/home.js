@@ -4,6 +4,7 @@ import image from "../obama.PNG";
 import "./home.css";
 import Card from '../../components/cards/card';
 import GiftButtons from '../../components/gift/gift';
+import Pay from '../payPage/PayPageComponent'
 export default function home() {
     return (
         <div className="home">
@@ -41,6 +42,7 @@ export default function home() {
              <div className="cards">
              <Card/>
              <GiftButtons/>
+             <Pay/>
              </div>
         </div>
     )
