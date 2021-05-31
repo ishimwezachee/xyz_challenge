@@ -1,5 +1,6 @@
 import React from 'react';
-import "./gift.css"
+import "./gift.css";
+import footerImage from '../../images/footer.PNG'
 
 export default function gift() {
     return (
@@ -25,6 +26,9 @@ export default function gift() {
             <button id="donate">
                 DONATE
             </button>
+            <div className="footerImage">
+                <img src={footerImage}/>
+            </div>
         </div>
     )
 }

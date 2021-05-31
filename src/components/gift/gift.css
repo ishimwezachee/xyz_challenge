@@ -31,3 +31,8 @@ button#donate {
     padding: 15px;
     margin: 30px;
 }
+
+.footerImage{
+    border: 3px solid white;
+    margin-top: 8%;
+}
