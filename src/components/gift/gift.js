@@ -18,7 +18,7 @@ export default function gift() {
               </div>
             </div>
             <div className="help">
-                <input type="text"/> 
+                <input type="text" placeholder="Name your own amount, may be $44"/> 
                 <input id="check" type="checkbox"/>
                 <label for="check"> I'll cover my transaction fees</label>
             </div>
