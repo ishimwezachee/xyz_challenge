@@ -1,50 +1,62 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-});
-
-export default function ImgMediaCard() {
-  const classes = useStyles();
-
+import img1 from '../../images/Capture.PNG';
+import img2 from '../../images/Capture2.PNG';
+import img3 from '../../images/Capture3.PNG';
+import img4 from '../../images/Capture4.PNG';
+import "./card.css"
+export default function card() {
   return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
-  );
+    <div className="all_card">
+    <div className="card">
+     <div className="card1">
+     <p>100Montly</p>
+      <p id="money">$100</p>
+      <p>
+        cary the Obama <br/>
+        <p>Center with you</p>
+      </p>
+      <img src={img1}/>
+     </div>
+     <div className="card1">
+     <p>100Montly</p>
+      <p id="money">$100</p>
+      <p>
+        cary the Obama <br/>
+        <p>Center with you</p>
+      </p>
+      <img src={img2}/>
+     </div>
+     <div className="card1">
+     <p>100Montly</p>
+      <p id="money">$100</p>
+      <p>
+        cary the Obama <br/>
+        <p>Center with you</p>
+      </p>
+      <img src={img3}/>
+     </div>
+     <div className="card1">
+     <p>100Montly</p>
+      <p id="money">$100</p>
+      <p>
+        cary the Obama <br/>
+        <p>Center with you</p>
+      </p>
+      <img src={img4}/>
+     </div>
+    </div>
+    <div className="dummy_texts">
+      <p>
+      Whether you’ve been a part of this 
+      community from the start, or you’re just getting started, you belong here. With your support, we can build a Presidential Center that will revitalize the South Side of Chicago, unite a new generation of leaders 
+      to move us forward, and work together
+       to change history once more.
+      </p>
+      <p>
+      Help empower emerging leaders around the world.
+       Make a one-time gift today:
+      </p>
+     </div>
+    </div>
+  )
 }

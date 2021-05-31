@@ -1,0 +1,25 @@
+.card{
+   display: grid;
+   grid-template-columns:20% 20% 20% 20%;
+   margin-left: 20%;
+}
+
+.card1{
+    border: 1px solid white;
+    background-color: lightgray;
+    margin:20px;
+}
+
+
+.dummy_texts p{
+    text-align:left;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2;
+}
+#money{
+    font-weight:bold;
+    font-size: 60px;
+    margin: 0px;
+    color: rgb(85, 83, 83);
+}

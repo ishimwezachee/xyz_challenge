@@ -1,0 +1,14 @@
+button.btn{
+    width: 13%;
+    height: 40px;
+    padding: 6px;
+    margin: 7px;
+    color: white;
+    font-size: 20px;
+    background-color: #20c997;
+    border: 1px solid #20c997;
+}
+.h2{
+    color: black;
+    font-size: 30px;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
 import Nav from '../navigation/nav';
-import image from "../download.jpeg";
+import image from "../obama.PNG";
 import "./home.css";
-import Card from '../../components/cards/card'
+import Card from '../../components/cards/card';
+import GiftButtons from '../../components/gift/gift';
 export default function home() {
     return (
         <div className="home">
@@ -39,6 +40,7 @@ export default function home() {
              </div>
              <div className="cards">
              <Card/>
+             <GiftButtons/>
              </div>
         </div>
     )
