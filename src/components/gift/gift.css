@@ -12,3 +12,24 @@ button.btn{
     color: black;
     font-size: 30px;
 }
+input[type="text"] {
+    width: 20%;
+    padding: 5px;
+    margin-right: 90px;
+}
+.help{
+    margin-top: 10px;
+}
+
+element.style {
+}
+
+button#donate {
+    text-align: center;
+    color: white;
+    background: blue;
+    border: 1px solid;
+    width: 42%;
+    padding: 10px;
+    margin: 20px;
+}

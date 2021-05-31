@@ -3,7 +3,7 @@ import "./gift.css"
 
 export default function gift() {
     return (
-        <div className="">
+        <div className="gift">
             <h3 className="h2">MAKE ONE-TIME GIFT TODAY</h3>
             <div className="buttons">
               <div className="layer1">
@@ -17,6 +17,14 @@ export default function gift() {
               <button className="btn">$500</button>
               </div>
             </div>
+            <div className="help">
+                <input type="text"/> 
+                <input id="check" type="checkbox"/>
+                <label for="check"> I'll cover my transaction fees</label>
+            </div>
+            <button id="donate">
+                DONATE
+            </button>
         </div>
     )
 }
