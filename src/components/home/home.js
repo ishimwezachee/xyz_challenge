@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Nav from '../navigation/nav';
 import image from "../obama.PNG";
 import "./home.css";
