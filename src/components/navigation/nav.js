@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 import "./nav.css"
 export default function home() {
     return (
@@ -7,7 +8,9 @@ export default function home() {
             <p className="top-words"><strong>OBAMA</strong>Donate</p>
             </div>
             <div>
-            <button className="top">Donate Now</button>
+          <Link to="/pay">
+          <button className="top">Donate Now</button>
+          </Link>
             </div>
         </div>
     )
